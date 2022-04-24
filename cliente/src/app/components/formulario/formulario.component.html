@@ -1,0 +1,35 @@
+
+<div class="card border-dark mt-1 " style="max-width: 40rem;">
+  <div class="card-header">Filtrar Pokemon</div>
+  <div class="card-body">
+
+   <form (ngSubmit)="filtrarBusqueda()">
+    <div class="form-group">
+      <div class="container ">
+        <div class="row">
+         
+          <div class="col">
+              <label class="col-form-label mt-0" for="inputDefault">Ingrese busqueda:</label>
+              <input name="dato" [(ngModel)]="dato" type="text" class="form-control" placeholder="nombre, id, tipo" id="inputDefault">
+          </div>
+          
+          <div class="col">
+            <div class="filter">  
+              <label for="exampleSelect1" class="form-label mt-2">Selecciona Filtro:</label>
+              <select name="filtro" [(ngModel)]="filtroSeleccionado" class="form-select" id="exampleSelect1">
+                <option [value]="filtro.value"*ngFor="let filtro of filtro">{{filtro.nombre}}</option>
+              </select></div>
+          </div>
+          
+          <div class="col">
+            <button type="submit" class="btn btn-outline-dark mt-4">Buscar</button>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+   </form>
+
+</div>
+</div>

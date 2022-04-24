@@ -1,0 +1,29 @@
+
+
+    <div  class="card text-white  bg-{{ctype}} mb-3 mt-1" style="max-width: 100%; ">
+       
+        <div class="card-header"><h2>Pokemons {{colorV}}</h2></div>
+
+        <div class="card-group">
+    
+                    
+        <div *ngFor="let pokelist  of listPokemons" class="card-body">
+            
+            <div class="card mb-2" style="width: 300px ;">
+  
+                <h3 class="card-header">{{pokelist.nombre}}</h3>
+                <div class="card-body">
+                </div>
+                <img [src]="pokelist.imagen" class="img-fluid" alt="...">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">ID: {{pokelist.id}}  </li>
+                    <li class="list-group-item">Tipo: {{pokelist.tipo}} </li>
+                    <li class="list-group-item">Ataque: {{pokelist.ataque}}    </li>
+                </ul>
+            
+            </div>
+
+    </div>
+</div>
+    </div>
+

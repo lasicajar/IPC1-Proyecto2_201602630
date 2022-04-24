@@ -1,0 +1,7 @@
+
+<app-navbar></app-navbar>
+<div class="container">
+<app-formulario (parametrosSeleccionados)="filtrarBusqueda($event)"></app-formulario>
+<app-pokemons [listPokemons]="listaPokemons" ctype = {{colorTipo}} colorV = {{valortemp}} ></app-pokemons>
+
+</div>
