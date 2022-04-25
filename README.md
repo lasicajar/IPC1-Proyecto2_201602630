@@ -30,31 +30,32 @@ Tecnologias Utilizadas:
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/login.png?token=GHSAT0AAAAAABT33ENJAVNVAYFDFGJFWKWMYTGCI7A) 
 
 - La siguiente pantalla es la ventana de Inicio o Home, en esta se muestra los componentes para el funcionamiento de la API.
+<img src="/img/home.png"/>
 
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/home.png?token=GHSAT0AAAAAABT33ENJONX6IZOQIPHGUSBYYTGCKZA)
 - El componente que utilizaremos es el de Filtrar Pokemon, aquí podremos enviar ciertos parametros para la busqueda del elemento o elementos que necesitemos.
- 
+ <img src="/img/busqueda.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/busqueda.png?token=GHSAT0AAAAAABT33ENIYF7FVQKY5S2GROVYYTGCLQQ)
 - Al momento de filtrar podemos hacerlo por el filtro seleccionado todos y el espacio de dato en blanco, esto nos mostrará la lista de todos los pokemons.
-
+<img src="/img/filtroTodos.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtroTodos.png?token=GHSAT0AAAAAABT33ENI3Q7523EACB3EF276YTGCL5Q)
 - Para filtrar por tipo de pokemons debemos ingresar una de las opciones: Fuego, Agua o Hierba y seleccionar el filtro de Tipo, luego al dar clic en el boton buscar se desplegara los pokemons del tipo especifico, con un componente de acuerdo a su poder.
-
+<img src="/img/filtrotipo1.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtrotipo1.png?token=GHSAT0AAAAAABT33ENIXSIPOWH7NTBZYM3UYTGCMEA)
 -  Filtro de tipo Agua
-
+<img src="/img/filtrotipo2.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtrotipo2.png?token=GHSAT0AAAAAABT33ENIJM2ZDLTXERUFBZ7MYTGCMGQ)
 - Filtro de tipo Hierba
- 
+ <img src="/img/filtrotipo3.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtrotipo3.png?token=GHSAT0AAAAAABT33ENII7W2LCDJRCEOYZZQYTGCMJA)
 - Para buscar por nombre, se debe de colocar el filtro por nombre e ingresar el nombre del pokemon en el campo de busqueda.
- 
+ <img src="/img/filtroNombre.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtroNombre.png?token=GHSAT0AAAAAABT33ENJLDUZHG2455ZPO7PEYTGCLZA)
 - Para buscar por ID, se debe colocar el ID en el campo de busqueda y seleccionar el filtro de como id.
-
+<img src="/img/filtroId.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/filtroId.png?token=GHSAT0AAAAAABT33ENIU66JYJJVD4OJ6WVOYTGCLUQ)
 - Para salir de la app se debe dar clic en el boton Logout, el cual lo redireccionará a la ventana de login.
- 
+ <img src="/img/logout.png"/>
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/logout.png?token=GHSAT0AAAAAABT33ENI4FEYUEKQEK6F7LVKYTGCMNA)
 
 
