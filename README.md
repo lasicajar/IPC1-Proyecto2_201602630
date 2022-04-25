@@ -25,6 +25,7 @@ Tecnologias Utilizadas:
 
 
 - Como pantalla principal tenemos la autenticación del usuario, debemos colocar los datos correctos para poder ingresar.
+<img src="/img/login.png"/>
 
 ![](https://raw.githubusercontent.com/lasicajar/IPC1-Proyecto2_201602630/main/img/login.png?token=GHSAT0AAAAAABT33ENJAVNVAYFDFGJFWKWMYTGCI7A) 
 
