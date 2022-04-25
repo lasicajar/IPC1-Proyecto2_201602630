@@ -13,6 +13,7 @@ import { FuegoComponent } from './components/fuego/fuego.component';
 import { AguaComponent } from './components/agua/agua.component';
 import { HierbaComponent } from './components/hierba/hierba.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     FuegoComponent,
     AguaComponent,
-    HierbaComponent
+    HierbaComponent,
+    LoginComponent
+    
   ],
   imports: [
     BrowserModule,

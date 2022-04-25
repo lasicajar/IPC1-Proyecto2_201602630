@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   colorTipo: any;
   valortemp: any;
 
+
  
 
   constructor(private pokemonservice: PokemonService) {
@@ -44,8 +45,12 @@ export class HomeComponent implements OnInit {
               this.listaPokemons = data;
              
               
-    })
+    });
+
+
   }
+
+  
  
 
 
